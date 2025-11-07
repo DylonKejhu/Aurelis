@@ -1,0 +1,7 @@
+tunnel: docker-tunnel
+credentials-file: /cloudflared/docker-tunnel.json
+
+ingress:
+  - hostname: dylonkejhu.my.id
+    service: http://nginx:80
+  - service: http_status:404
