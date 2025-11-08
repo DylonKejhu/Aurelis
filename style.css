@@ -1,35 +1,39 @@
 .Title {
-    text-align: center;
+  text-align: center;
 }
-.Title h3{
-    margin-top: -20px;
+
+.Title h3 {
+  margin-top: -20px;
 }
-body{
-    margin: 0;
+
+body {
+  margin: 0;
 }
-main{
-    margin: 20px;
+
+main {
+  margin: 20px;
 }
-.navbar ul{
-    list-style-type: none;
-    background-color: hsl(0, 0%, 25%);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
+
+.navbar ul {
+  list-style-type: none;
+  background-color: hsl(0, 0%, 25%);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
 }
-.navbar a{
-    color: white;
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    padding: 15px;
+
+.navbar a {
+  color: white;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 15px;
 }
-.navbar a:hover{
-    background-color: hsl(0, 0%, 10%)
+
+.navbar a:hover {
+  background-color: hsl(0, 0%, 10%)
 }
-.navbar li{
-    float: left;
-}
-main{
-    
+
+.navbar li {
+  float: left;
 }
